@@ -2,9 +2,9 @@ import os
 
 
 # MySQL Connection
-DATABASE_URL = '192.168.178.222'
+DATABASE_URL = '127.0.0.1'
 USERNAME = 'root'
-PASSWORD = 'external'
+PASSWORD = 'admin'
 DATABASE = 'rl_compynion'
 
 # File Storage Directory
