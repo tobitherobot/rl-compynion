@@ -1,8 +1,3 @@
-import carball
+import service.file_service as fs
 
-json = carball.decompile_replay(
-    '/tests/test.replay',
-    output_path= '/tests/fileJson.json',
-    overwrite=True)
-
-# TODO does not work
+json = fs.decompile('twoGoalsWin')
